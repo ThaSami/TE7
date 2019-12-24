@@ -3,7 +3,7 @@ package com.te7.model.item;
 public class Flashlight extends Item implements TradeAble {
   @Override
   public double getPrice() {
-    return 0;
+    return Prices.FLASH_LIGHT;
   }
 
 }
