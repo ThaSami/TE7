@@ -20,12 +20,12 @@ public class Direction {
   }
 
   public void goLeft() {
-    this.currentDirection = this.currentDirection - 1 + 4 % 4;
+    this.currentDirection = (this.currentDirection + 3) % 4;
   }
 
 
   public void goRight() {
-    this.currentDirection = this.currentDirection + 1 % 4;
+      this.currentDirection = (this.currentDirection + 1) % 4;
   }
 
   @Override

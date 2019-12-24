@@ -1,0 +1,4 @@
+
+‘"squid:ClassVariableVisibilityCheck"WMake FLASH_LIGHT a static final constant or non-public and provide accessors if needed.(´õ¾êøÿÿÿÿ8ÕºØ£ò-
+ysquid:S3008"VRename this field "FLASH_LIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´õ¾êøÿÿÿÿ8ÕºØ£ò-
+Tsquid:S1444"1Make this "public static FLASH_LIGHT" field final(´õ¾êøÿÿÿÿ8ÕºØ£ò-
