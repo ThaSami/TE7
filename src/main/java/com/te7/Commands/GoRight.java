@@ -1,16 +1,15 @@
 package com.te7.Commands;
 
-import com.te7.model.Navigator;
+import com.te7.model.player.Navigator;
 
 public class GoRight implements Command {
-    private Navigator nav;
+  private Navigator nav;
 
-    public GoRight() {
-        this.nav = Navigator.getInstance();
-    }
+  public GoRight() {
+    this.nav = Navigator.getInstance();
+  }
 
-    @Override
-    public void execute() {
-
-    }
+  @Override
+  public void execute() {
+  }
 }

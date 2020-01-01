@@ -1,11 +1,10 @@
-package com.te7.model.item;
+package com.te7.model.items;
 
 import lombok.Getter;
 import lombok.Setter;
 
 public abstract class Item {
-   @Setter
-   @Getter
-   private String id;
-
+    @Setter
+    @Getter
+    private String id;
 }

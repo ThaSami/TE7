@@ -1,4 +1,4 @@
-package com.te7.model.item;
+package com.te7.model.items;
 
 public final class Prices {
     public static double FLASH_LIGHT = 4;

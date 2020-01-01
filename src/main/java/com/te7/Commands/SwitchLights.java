@@ -2,10 +2,10 @@ package com.te7.Commands;
 
 import com.te7.model.player.Navigator;
 
-public class GoLeft implements Command {
+public class SwitchLights implements Command {
     private Navigator nav;
 
-    public GoLeft() {
+    public SwitchLights() {
         this.nav = Navigator.getInstance();
     }
 

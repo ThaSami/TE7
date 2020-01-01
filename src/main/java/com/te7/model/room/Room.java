@@ -1,8 +1,7 @@
 package com.te7.model.room;
 
-import com.sun.org.apache.xpath.internal.functions.Function;
 import com.te7.model.Identifiable;
-import com.te7.model.room.wall.WallObject;
+import com.te7.model.wallObjects.WallObject;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,11 +9,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Room implements Identifiable {
-    private Map<Direction, WallObject> decrorations;
     @Getter
     @Setter
     boolean isLit;
-
+    private Map<Direction, WallObject> decrorations;
     @Getter
     private String id;
 
@@ -23,13 +21,17 @@ public class Room implements Identifiable {
         this.isLit = isLit;
     }
 
-    public void addDecoration(Direction direction, WallObject wallObject) {
-    if (checkIfWallIsEmpty(direction)) {
-      this.decrorations.put(direction, wallObject);
+    private boolean checkIfWallIsEmpty(Direction direction) {
+        return !this.decrorations.containsKey(direction);
     }
-  }
 
-  private boolean checkIfWallIsEmpty(Direction direction) {
-    return !this.decrorations.containsKey(direction);
-  }
+    public void setSide(Direction direction, WallObject wallObject) {
+        if (checkIfWallIsEmpty(direction)) {
+            this.decrorations.put(direction, wallObject);
+        }
+    }
+
+    public WallObject getSide(Direction direction) {
+        return null;
+    }
 }

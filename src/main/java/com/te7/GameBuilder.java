@@ -6,21 +6,20 @@ import com.te7.model.Map.GameMap;
 
 public class GameBuilder {
 
-    public static GameMap newMap(Builder builder) {
-        builder.newMap();
-        builder.buildLitRoom(1);
+  public static GameMap newMap(Builder builder) {
+    builder.newMap();
+    builder.buildLitRoom(1);
 
 
-        return builder.getMap();
-    }
+    return builder.getMap();
+  }
 
-    public static void main(String[] args) {
-        GameMap maze;
-        Builder builder;
+  public static void main(String[] args) {
+    GameMap maze;
+    Builder builder;
 
-        builder = new SimpleMapBuilder();
-        maze = newMap(builder);
-        maze.setCurrentRoom(1);
-    }
-
+    builder = new SimpleMapBuilder();
+    maze = newMap(builder);
+    maze.setCurrentRoom(1);
+  }
 }

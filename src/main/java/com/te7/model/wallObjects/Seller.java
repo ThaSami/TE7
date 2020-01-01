@@ -1,6 +1,6 @@
-package com.te7.model.room.wall;
+package com.te7.model.wallObjects;
 
-import com.te7.model.item.TradeAble;
+import com.te7.model.items.TradeAble;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

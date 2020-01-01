@@ -1,17 +1,14 @@
 package com.te7.Commands;
 
-import com.te7.model.item.TradeAble;
-import com.te7.model.room.wall.Seller;
+import com.te7.model.wallObjects.Seller;
 
 public class List implements Command {
     private Seller seller;
 
-    public List(Seller seller, TradeAble item) {
-        this.seller = seller;
+    public List() {
     }
 
     @Override
     public void execute() {
-
     }
 }

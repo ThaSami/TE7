@@ -1,4 +1,4 @@
-package com.te7.model.item;
+package com.te7.model.items;
 
 import com.te7.model.Identifiable;
 

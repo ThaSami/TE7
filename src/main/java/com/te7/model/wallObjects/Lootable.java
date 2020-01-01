@@ -1,6 +1,6 @@
-package com.te7.model.room.wall;
+package com.te7.model.wallObjects;
 
-import com.te7.model.item.Item;
+import com.te7.model.items.Item;
 
 import java.util.List;
 

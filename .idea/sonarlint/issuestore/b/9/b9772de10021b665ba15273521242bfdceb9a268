@@ -1,7 +1,7 @@
 
+Osquid:S1444"1Make this "public static FLASH_LIGHT" field final(ıˆ†8ÕºØ£ò-
+Œ"squid:ClassVariableVisibilityCheck"WMake FLASH_LIGHT a static final constant or non-public and provide accessors if needed.(ıˆ†8ÕºØ£ò-
+‰"squid:ClassVariableVisibilityCheck"OMake KEY a static final constant or non-public and provide accessors if needed.(¹œêËúÿÿÿÿ8ìÆ¸Éó-
+Lsquid:S1444")Make this "public static KEY" field final(¹œêËúÿÿÿÿ8ìÆ¸Éó-
 qsquid:S3008"NRename this field "KEY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹œêËúÿÿÿÿ8ìÆ¸Éó-
 tsquid:S3008"VRename this field "FLASH_LIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıˆ†8ÕºØ£ò-
-Osquid:S1444"1Make this "public static FLASH_LIGHT" field final(ıˆ†8ÕºØ£ò-
-‰"squid:ClassVariableVisibilityCheck"OMake KEY a static final constant or non-public and provide accessors if needed.(¹œêËúÿÿÿÿ8ìÆ¸Éó-
-Œ"squid:ClassVariableVisibilityCheck"WMake FLASH_LIGHT a static final constant or non-public and provide accessors if needed.(ıˆ†8ÕºØ£ò-
-Lsquid:S1444")Make this "public static KEY" field final(¹œêËúÿÿÿÿ8ìÆ¸Éó-

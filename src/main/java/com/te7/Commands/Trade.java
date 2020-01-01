@@ -1,6 +1,6 @@
 package com.te7.Commands;
 
-import com.te7.model.Navigator;
+import com.te7.model.player.Navigator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 public class Trade implements Command {
     private Navigator nav;
     private List<Command> subCommands;
-    //TODO check if i need items in sellCommand.
+    // TODO check if i need items in sellCommand.
 
     public Trade() {
         this.nav = Navigator.getInstance();
@@ -21,6 +21,5 @@ public class Trade implements Command {
 
     @Override
     public void execute() {
-
     }
 }
