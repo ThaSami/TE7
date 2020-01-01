@@ -12,11 +12,11 @@ public interface Builder {
 
   void buildDarkRoom(int room);
 
-  void buildLockedDoor(int id, Direction room1Direction, int to, Direction room2Direction, String keyName);
+  void buildLockedDoor(int from, Direction room1Direction, int to, Direction room2Direction, String keyName);
 
-  void buildUnlockedDoor(int id, int from, Direction room1Direction, int to, Direction room2Direction);
+  void buildUnlockedDoor(int from, Direction room1Direction, int to, Direction room2Direction);
 
-  void buildSpecialDoor(int id, int from, Direction room1Direction);
+  void buildSpecialDoor(int from, Direction room1Direction);
 
   void buildLockedChest(int id, int room, Direction lockedChestDirection, List<Item> items);
 
@@ -24,7 +24,7 @@ public interface Builder {
 
   void buildMirror(int room, Direction mirrorDirection, List<Item> items);
 
-  void buildPainting(int room, Direction mirrorDirection, List<Item> items);
+  void buildPainting(int room, Direction paintingDirection, List<Item> items);
 
   void buildSeller(int id, int room, Direction sellerDirection, List<Item> items);
 
